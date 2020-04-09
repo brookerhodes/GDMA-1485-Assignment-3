@@ -41,3 +41,50 @@ html {
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
+#gray-headline{
+	background-color:#C0C0C0;
+	height: 100px;
+}
+#white-bar {
+	margin:0px 0px 0px 350px;
+	border-radius:20px;
+	background-color: #F7F7F7;
+	width: 700px;
+	height: 35px;
+}
+
+#circle-1, #circle-2, #circle-3 {
+	height: 25px;
+  width: 25px;
+  background-color: #F7F7F7;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#circle-1 {
+	margin-left: 40px;
+}
+
+nav {
+	margin-left: 500px;
+}
+
+
+li {
+	margin-left: 10px;
+	display: inline;
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+
+.fas fa-lock {
+	float: right;
+}
+#square-1 {
+	background-color:#F1703F;
+	height: 550px;
+	width: 400px;
+}
