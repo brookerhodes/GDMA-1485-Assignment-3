@@ -27,8 +27,9 @@
 /*--------------------------------------------------------------
 3.0 -GENERIC 
 -------------------------------------------------------------- */
-html {
-  scroll-behavior: smooth;
+
+js {
+  scroll-behavior:smooth;
 }
 
 	* {
@@ -37,105 +38,228 @@ html {
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
 }
+
+
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
-#gray-headline{
-	background-color:#C0C0C0;
-	height: 100px;
-}
-#white-bar {
-	margin:0px 0px 0px 350px;
-	border-radius:20px;
-	background-color: #F7F7F7;
-	width: 700px;
-	height: 35px;
-}
-
-#circle-1, #circle-2, #circle-3 {
-	height: 25px;
-  width: 25px;
-  background-color: #F7F7F7;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-#circle-1 {
-	margin-left: 40px;
+nav a:hover {
+	color:#FA0408;
+	
 }
 
 nav {
-	margin-left: 500px;
+	text-align:center;
 }
 
 
 li {
-	margin-left: 10px;
-	display: inline;
+padding: 10px;
+display: inline;
 }
 
 a {
+	font-size: 15px;
 	color:#000;
 	text-decoration: none;
 }
 
-.fas fa-lock {
-	float: right;
-}
-
-#coffee-mag {
-	margin-left: 40px;
-	float: left;
-}
-
-#cup-sweater{
-	margin-left: 30px;
-	float:left;
-}
 
 h1 {
-	text-align: center;
-	margin: 0px 20px 10px 600px;
-	font-family: 'Playfair Display', serif;
+	padding-bottom: 200px;
 	width: 500px;
+	float: right;
+	font-family: 'Playfair Display', serif;
+	
 }
 
-h2 {
+h2, h3 {
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
 }
 
 
-#bag {
-	float: left;
+h3 {
+	padding-top: 100px;
+	width:1080px;
+	border-top:3px solid #C2C2C2; 
+	font-size: 30px;
+}
+
+.fa-coffee{
+float: left;
+font-size: 30px;
+padding: 50px;
 }
 
 
-.learn-btn {
-	background-color:#5E8195;
- 	border: none;
-  padding: 15px;
-  text-align: center;
-  display: inline-block;
+.fa-lock, #beans, #kara-founder{
+	float: right;
+}
+
+#cup-mag, #sweater, #col-kara, #square-1, #square-2 {
+	float: left;
+}
+
+#sweater {
+	margin-left: 20px;
+}
+
+#beans {
+	padding-top: 15px;
+}
+
+
+#square-1, #square-2, #square-3 {
+	background-color:#F8CEA9;
+}
+
+
+#square-1 {
+	margin: 40px 70px 0px 200px;
+	width: 450px;
+	height: 440px; 
+	
+}
+
+
+#square-2 {
+	margin-top: 40px;
+	height: 420px;
+	width: 400px;
+}
+
+#square-3 {
+	padding-top: 20px;
+	margin-top: 170px;
+	float: right;
+	height: 520px;
+	width:440px;
 }
 
 
 #col-2 {
+	margin: 30px 0px 0px 300px;
 	float: left;
+	width: 300px;	
 }
 
-#col-2 p {
-	width: 400px;
-}
-#square-1 {
-	float:right;
-	background-color:#F1703F;
-	height: 550px;
-	width: 400px;
-}
 
 #col-3 {
-	width: 400px;
+	padding-bottom: 20px;
 	float: right;
+	width: 400px;
+}
+
+
+
+#col-3 p, #col-2 p, #col-3 {
+	padding-top: 20px;
+	
+}
+
+
+#col-kara {
+	padding: 50px 0px 50px 0px;
+	margin-left: 75px;
+	width: 350px;
+}
+
+/*--------------------------------------------------------------
+5.0 - OBJECTS 
+-------------------------------------------------------------- */
+/*FRAMEWORK*/
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.row {
+	overflow: auto;
+
+}
+
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS
+-------------------------------------------------------------- */
+
+.learn-btn a {
+	background-color:#FA0408;
+	color: #FDFAFA;
+ 	 -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.learn-btn a:hover {
+	background-color:#FB8284;	
+}
+
+
+#left-headline {
+	padding-top: 270px;
+	float: left;
+	transform: rotate(270deg);
+}
+
+
+#right-headline {
+	padding-bottom: 200px;
+	padding-left: 100px;
+	float: left;
+	transform: rotate(90deg);
+}
+
+#right-headline {
+	float:right;
+}
+
+#left-headline2 {
+	padding-bottom: 190px;
+	text-align: left;
+	float: left;
+	transform: rotate(270deg);
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+7.0 - UTILITES
+-------------------------------------------------------------- */
+
+.first-wrapper{
+	padding-bottom: 100px;
+}
+.purpose-border, .border-wrapper {
+border-top:3px solid #C2C2C2; 
+}
+
+
+.border-wrapper {
+	margin-bottom: 60px;	
+}
+
+
+.border-wrapper p, #website-link, #blk-wrapper p {
+	text-align: center;
+}
+
+#blk-wrapper {
+	background-color: #000;
+	padding: 20px;
+}
+
+#blk-wrapper p{
+	color:#FCFBFB;
 }
