@@ -145,8 +145,7 @@ h3 {
 
 
 #vertical-headline-mid {
-	margin-top: 100px;
-	margin-left: 200px;
+	margin: 100px 0px 0px 200px;
 	float: left;
 	transform: rotate(90deg);
 }
@@ -158,8 +157,7 @@ h3 {
 }
 
 #vertical-headline-bottom {
-	margin-top: 400px;
-	margin-left: 100px;
+	margin: 400px 0px 0px 100px;
 	float: left;
 	transform: rotate(270deg);
 }
@@ -187,10 +185,7 @@ h3 {
 
 
 #col-2 {
-	margin-bottom: 10px;
-	margin-top: 70px;
-	margin-right: 200px;
-	margin-left: 30px;
+	margin: 70px 200px 10px 30px;
 	width: 300px;
 	float: left;
 }
@@ -203,11 +198,15 @@ h3 {
 
 
 
-
+#header-three-square {
+	float: right;
+	height: 500px; 
+	width: 450px;
+}
 
 
 #col-3-1{
-	float: left;
+	float: right;
 	width: 250px;
 }
 
@@ -216,10 +215,9 @@ h3 {
 }
 
 #col-kara {
-	margin-top: 150px;
+	margin: 150px 100px 0px 0px;
 	float: left;
 	width: 300px;
-	margin-right: 100px;
 }
  
 #founder-image {
@@ -232,8 +230,8 @@ h3 {
 /*COLOR*/
 
 .fa-lock {
-	margin-bottom: 40px;
-	float: right;
+margin-bottom: 40px;
+float: right;
 }
 
 .learn-btn a {
